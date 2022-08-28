@@ -45,7 +45,7 @@ ${
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           chat_id: ctx.env.TG_CHAT_ID,
-          parse_mode: "Markdown",
+          parse_mode: "MarkdownV2",
           disable_web_page_preview: true,
           text,
         }),
