@@ -59,7 +59,7 @@ ${
 
 app.all("*", (ctx) =>
   ctx.text(
-    "Thanks for dropping by! Visit https://github.com/plibither8/sourcegraph-code-monitor-telegram for more info ;)"
+    "Thanks for dropping by! Visit https://github.com/plibither8/sourcegraph-monitor-webhooks for more info ;)"
   )
 );
 
