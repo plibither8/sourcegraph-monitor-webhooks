@@ -31,7 +31,7 @@ app.post("/telegram", async (ctx) => {
 ${format.escape("New code monitor results from")} ${format.url(
     payload.monitorDescription,
     payload.monitorURL
-  )}!\n\n
+  )}${format.escape("!")}\n\n
 ${
   payload.results
     ?.map((result) => format.monospaceBlock(result.diff, "diff"))
